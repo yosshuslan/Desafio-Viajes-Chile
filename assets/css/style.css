@@ -26,9 +26,6 @@ header img{
 #destacados .fondo-azul{
     background-color: rgba(11, 215, 241, 0.815);
 }
-#destacados .container .row .card{
-    width: 24%;
-}
 /* pie de pagina */
 .fondo-azul{
     background-color: rgba(11, 215, 241, 0.815);
