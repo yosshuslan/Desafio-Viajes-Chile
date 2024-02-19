@@ -1,8 +1,12 @@
-body*{
+body *{
     margin: 0;
     padding: 0;
     font-family: 'Cabin', sans-serif;
     }
+
+    html {
+        scroll-behavior: smooth;
+        }
 /* header */
 nav{
     background-color: transparent;
@@ -14,26 +18,21 @@ header img{
 .bg-oscuro{
     background-color: black;
 }
-
 /* seccion quienes somos */
 #quienes-somos .fondo-azul{
     background-color: rgba(11, 215, 241, 0.815);
 }
-
-
-
+/* destacados */
 #destacados .fondo-azul{
     background-color: rgba(11, 215, 241, 0.815);
-
 }
-
-
-fondo-azul{
+#destacados .container .row .card{
+    width: 24%;
+}
+/* pie de pagina */
+.fondo-azul{
     background-color: rgba(11, 215, 241, 0.815);
-    
-
 }
-
 footer a{
     color:white;
 }
